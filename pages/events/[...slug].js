@@ -54,6 +54,7 @@ export const getServerSideProps = async ({ params }) => {
     year: numYear,
     month: numMonth,
   });
+
   return {
     props: {
       filteredEvents,
